@@ -72,9 +72,9 @@ const trois = document.querySelector(".carteThree")
 
 let idInterval
 
-let firstGroup = ["image/banane.jpg","image/poire.jpg","image/fraise.jpg"]
-let secondGroup = ["image/concombre.jpg","image/peche.jpg","image/fruitLuffy.jpg"]
-let thirdGroup = ["image/chou.jpg","image/citrouille.jpg","image/carotte.jpg"]
+let firstGroup = ["img/img1.jpg","img/img3.jpg","img/img3.jpg"]
+let secondGroup = ["img/img4.jpg","img/img5.jpg","img/img6.png"]
+let thirdGroup = ["img/img7.jpg","img/img8.jpg"]
 
 let firstNum
 let secondNum
@@ -87,7 +87,7 @@ function randomNumberWihPic(data, option){
     else if (option === 2){
         data = Math.floor(Math.random()* secondGroup.length)
     }
-    else if(option ===3){
+    else if(option === 3){
         data = Math.floor(Math.random()*thirdGroup.length)
     }
     return data
