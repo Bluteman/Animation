@@ -19,7 +19,7 @@ new Typewriter(txtAnim, {
 })
     /* changeDelay : (10 rapide / changeDelay: 70 lent) */
     .changeDelay(90)
-    .typeString("Animation'Bank")
+    .typeString("Animation Bank")
     .pauseFor(1000)
     .deleteChars(14)
     .pauseFor(300)
@@ -27,9 +27,9 @@ new Typewriter(txtAnim, {
     .pauseFor(1000)
     .deleteChars(11)
     .pauseFor(300)
-    .typeString("Free")
+    .typeString("Free !!")
     .pauseFor(1000)
-    .deleteChars(4)
+    .deleteChars(7)
     .pauseFor(300)
     .start()
 

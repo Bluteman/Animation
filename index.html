@@ -24,15 +24,15 @@
 </div>
 
 <!-- Animation 2 -->
-<div>
+<div class="pt-5 pb-5">
     <div>
         <h2 class="text-center mb-3">carrousel avis 1</h2>
         <div class="d-flex justify-content-center">
             <a class="text-center" href="https://www.jsdelivr.com/">Librairie avec documentation</a>
-            <i class="bi bi-arrow-bar-right ms-3"></i>
+            <i class="bi bi-arrow-bar-right ms-2"></i>
         </div>
     </div>
-    <div class="pt-5 pb-5 animationSection">
+    <div>
         <div class="container-lg">
             <div class="swiper">
                 <!-- Additional required wrapper -->
@@ -83,11 +83,11 @@
     </div>
 </div>
 
-
+<hr>
 <!-- Animation 3 -->
-<div class="pt-5 pb-5 animationSection">
+<div class="pt-5 pb-5">
     <div>
-        <h2 class="text-center mb-3">carrousel avis 2 animation spawn capture d'écran</h2>
+        <h2 class="text-center mb-3">carrousel avis 2</h2>
     </div>
     <div class="container-lg">
         <div style="height: 50vh" class="w-100 containerAvisAteliers mt-5 mb-5">
@@ -98,60 +98,102 @@
     </div>
 </div>
 
+<hr>
 <!-- Animation 4 -->
-<div class="pt-5 pb-5 animationSection">
+<div class="pt-5 pb-5">
     <div>
-        <h2 class="text-center mb-3">carrousel avis 3 Bootstrap (1 par 1)</h2>
+        <h2 class="text-center mb-3">carrousel avis 3</h2>
+        <div class="d-flex justify-content-center mb-5">
+            <a class="text-center" href="https://getbootstrap.com/docs/5.3/components/carousel/">Librairie avec documentation</a>
+            <i class="bi bi-arrow-bar-right ms-2"></i>
+        </div>
     </div>
     <div class="container-lg">
+        <div class="containerTemoignages">
+            <div id="carouselExampleCaptions" class="carousel slide">
 
-        <div id="carouselExampleCaptions" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
 
+                <div class="carousel-inner">
 
-            <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-caption d-flex flex-column">
+                            <div class="carousel-caption d-flex flex-column align-items-center">
+                                <div class="imgBase">
+                                    <img class="imgBase imgProfil" src="https://cdn.discordapp.com/attachments/907008782377300010/1098219506658185288/renard.png" alt="image Profil">
+                                </div>
+                                <h5 style="color: var(--white)">Truc</h5>
+                                <p class="txtContentAvis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, hic! (10)</p>
+                                <p class="txtContentAvis txtprofession">profession : DevWeb</p>
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="carousel-item active">
-                    <div class="carousel-caption d-flex flex-column">
-                        <img class="imgBase imgProfilBootstrap" src="https://cdn.discordapp.com/attachments/907008782377300010/1098219506658185288/renard.png" alt="image Profil">
-                        <h5>truc 1</h5>
-                        <p class="txtContentAvis">blablabla 1</p>
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-flex flex-column">
+                            <div class="carousel-caption d-flex flex-column align-items-center">
+                                <div class="imgBase">
+                                    <img class="imgBase imgProfil" src="https://cdn.discordapp.com/attachments/907008782377300010/1098219506976952411/renardSleepy.png" alt="image Profil">
+                                </div>
+                                <h5 style="color: var(--white)">Sophie</h5>
+                                <p class="txtContentAvis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet doloribus excepturi ipsum quas recusandae? Excepturi hic molestias nihil quo saepe? (20)</p>
+                                <p class="txtContentAvis txtprofession">profession : DevSecOps</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-flex flex-column">
+                            <div class="carousel-caption d-flex flex-column align-items-center">
+                                <div class="imgBase">
+                                    <img class="imgBase imgProfil" src="https://cdn.discordapp.com/attachments/907008782377300010/1098219507421556797/renardAnxious.png" alt="image Profil">
+                                </div>
+                                <h5 style="color: var(--white)">machin</h5>
+                                <p class="txtContentAvis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum facilis impedit itaque laboriosam natus quia repudiandae tempora. At error esse illo in incidunt, molestias nam nostrum quo tenetur voluptatem? Temporibus? (30)</p>
+                                <p class="txtContentAvis txtprofession">profession : Directeur Artistique</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="carousel-caption d-flex flex-column">
+                            <div class="carousel-caption d-flex flex-column align-items-center">
+                                <div class="imgBase">
+                                    <img class="imgBase imgProfil" src="https://cdn.discordapp.com/attachments/907008782377300010/1098219507748700261/renardKitsume.png" alt="image Profil">
+                                </div>
+                                <h5 style="color: var(--white)">lucie</h5>
+                                <p class="txtContentAvis">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at beatae dignissimos doloremque eos et ex id ipsa, iure laudantium, magni minus molestiae neque nulla odio odit officiis perspiciatis porro possimus quidem reiciendis sapiente vel vero.(36)</p>
+                                <p class="txtContentAvis txtprofession">profession : créatrice</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="carousel-item">
-                    <div class="carousel-caption d-flex flex-column">
-                        <img class="imgBase imgProfilBootstrap" src="https://cdn.discordapp.com/attachments/907008782377300010/1098219506658185288/renard.png" alt="image Profil">
-                        <h5>truc 2</h5>
-                        <p class="txtContentAvis">blablabla 2</p>
-                    </div>
-                </div>
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-
     </div>
 </div>
 
+<hr>
 
 
 <!-- Footer -->
 <section style="background-color: var(--footer-color)">
     <div class="container-lg containerFooter pt-5 pb-5">
-        <h2><strong>footer</strong></h2>
+        <h2><strong>Footer</strong></h2>
         <div>
             <ul class="d-flex justify-content-around m-0 p-0">
                 <li><a class="footer-links" href="#"><i class="bi bi-instagram"></i></a></li>
@@ -161,6 +203,7 @@
         </div>
     </div>
 </section>
+
 <!-- ############### FIN HTML ############### -->
 
 <!-- script ecriture type (Animation 1) -->
